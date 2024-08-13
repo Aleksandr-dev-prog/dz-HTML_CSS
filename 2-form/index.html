@@ -7,22 +7,18 @@
 </head>
 <body>
     <main>
-        <h1>Регистрация</h1>
-        <span>Уже есть аккаунт? <span style="color: rgb(14, 9, 160);">Войти</span></span><br/><br/>
-        <h2>Моя компания</h2>
-        <form action="#">
-            <input type="text" id="text" name="text" placeholder="Имя                    Фамилия" required/>
-        </form><br/><br/>
         <form action="#">
             <div>
-                <input type="email" id="email" name="email" placeholder="E-mail">
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт?<a href="#">Войти</a></p>
             </div>
-        </form><br/><br/>
-        <button>Зарегистрироваться &rarr;</button><br/><br/>
-        <form action="#">
             <div>
+                <input type="text"  placeholder="Моя компания"/>
+                <input type="text" id="text" name="text" placeholder="Имя Фамилия" required/>
+                <input type="email" id="email" name="email" placeholder="E-mail" required/>
+                <button>Зарегистрироваться &rarr;</button>
                 <input type="checkbox" id="consent" name="consent"/>
-                <label for="consent">Я прочитал и принимаю <span style="color: rgb(14, 9, 160);">Условия использования</span></label>
+                <label for="consent">Я прочитал и принимаю <a href="#">Условия использования</a></label>
             </div>
         </form>
     </main>
