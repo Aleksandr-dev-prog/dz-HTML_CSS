@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css\style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>2-form</title>
+</head>
+<body>
+    <main>
+        <form class="form" action="#">
+            <h1>Регистрация</h1>
+            <p>Уже есть аккаунт?<a href="#" id="enter">Войти</a></p>
+
+            <div class="div">
+
+                <input type="text" class="text" placeholder="Моя компания"/>
+
+                <div class="personalData">
+                    <input type="text" id="name" name="text" placeholder="Имя" required/>
+                    <input type="text" id="surname" name="text" placeholder="Фамилия" required/>
+                </div>
+
+                <input type="email" id="email" name="email" placeholder="E-mail" required/>
+
+                <div class="div2">
+                    <button>
+                        <a class="registr" href="#">Зарегистрироваться</a>
+                        <a class="img" href="#">
+                            <img src=".\images\arrow_right.png" alt="стрелка">
+                        </a>
+                    </button>
+
+                    
+                
+                    <input type="checkbox" id="consent" name="consent"/>
+                    <label for="consent">Я прочитал и принимаю <a id="condition" href="#">Условия использования</a></label>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
+
+
+
