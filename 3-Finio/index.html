@@ -24,26 +24,21 @@
             <a class="textLogo" href="#">
                FINIO
             </a>
-            <nav>
-                <ul class="menu description17">
+            <nav class="header__menu">
+                <ul class="menu description18">
                     <li class="menu__item"><a href="#">Возможности</a></li>
                     <li class="menu__item "><a href="#">Тарифы</a></li>
                     <li class="menu__item "><a href="#">Отзывы</a></li>
-                    <li class="menu__item "><a href="#">Поддержка клиентов</a></li>
+                    <li class="menu__item "><a href="#">Поддержка&nbsp;клиентов</a></li>
                 </ul>
             </nav>
             <button class="button button_ghost">
-                <a href="#">Личный кабинет</a>
+                <a href="#">Личный&nbsp;кабинет</a>
             </button>
-            <button
-             class="header__mobile-menu-button">
+            <button class="header__mobile-menu-button">
                 <img src="./images/menu.svg" alt="Мобильное меню">
             </button>
-            <img 
-                class="line"
-                src="./images/Line_head.svg" 
-                alt="Линия"
-            />
+            <div class="line"></div>
         </div>
     </header>
     
@@ -109,7 +104,7 @@
 
     <section class="section">
         <div class="section__wrapper finance">
-            <div class="finance__wrap finance__wrap_right">
+            <div class="finance__wrap">
                <div class="finance__text">
                     <div class="finance__h1">
                         Предотвращайте кассовые разрывы	
@@ -118,9 +113,9 @@
                         Заранее планируйте предстоящие платежи и поступления средств. Тем самым, вы избежите неприятной ситуации с нехваткой средств на счетах
                     </div>
                </div> 
-               <img class="finance__img finance__img_top" src="./images/Finance/Balance.svg" alt="Баланс">
+               <img class="finance__img" src="./images/Finance/Balance.svg" alt="Баланс">
             </div>
-            <div class="finance__wrap finance__wrap_left">
+            <div class="finance__wrap">
                 <img class="finance__img" src="./images/Finance/Reports.svg" alt="Отчеты">
                 <div class="finance__text">
                      <div class="finance__h1">
@@ -131,7 +126,7 @@
                      </div>
                 </div> 
             </div>
-            <div class="finance__wrap finance__wrap_right">
+            <div class="finance__wrap">
                 <div class="finance__text">
                      <div class="finance__h1">
                         Какие товары приносят прибыль	
@@ -140,12 +135,12 @@
                         Находите точки роста, делайте упор на рентабельные товары и увеличивайте свой доход
                      </div>
                 </div> 
-                <img class="finance__img picture" src="./images/Finance/Chart.svg" alt="Диаграмма">
+                <img class="finance__img" src="./images/Finance/Chart.svg" alt="Диаграмма">
             </div>
-            <div class="finance__wrap finance__wrap_left">
-                <img class="finance__img finance__img_bottom" src="./images/Finance/Expenses.svg" alt="Расходы">
+            <div class="finance__wrap">
+                <img class="finance__img" src="./images/Finance/Expenses.svg" alt="Расходы">
                 <img class="finance__image" src="./images/Finance/Expenditure.svg" alt="Расход">
-                <div class="finance__text expenses">
+                <div class="finance__text">
                      <div class="finance__h1">
                         Сокращайте лишние расходы
                      </div>
@@ -167,10 +162,12 @@
                 <button class="button">
                     <a href="#">Попробовать 14 дней бесплатно</a>
                 </button>
-            </div>     
-            <img class="control__img" src="./images/Control/Report.svg" alt="отчет">
+            </div> 
+            <div class="control__img">
+                <img src="./images/Control/Report.svg" alt="отчет"/>
+            </div>    
             <div class="control__unordered">
-                <div class="control__unordered_left">
+                <div>
                     <h3 class="control__h3">Excel</h3>
                     <ul class="control__list description18">
                         <li> <img src="./images/Mini-icons/exclamation.svg" alt="Восклицательный знак"> Долгое внесение данных</li>
@@ -245,8 +242,8 @@
     </section>
 
     <section class="section">
-        <div class="section__wrapper">
-            <div class="support">
+        <div class="section__wrapper support">
+            <div class="support__wrapper">
                 <img class="support__img" src="./images/iStock.svg" alt="Портрет девушки">
                 <div class="support__clients">
                     <h5 class="support__h5">
@@ -293,28 +290,28 @@
                             Тариф подойдёт тем, кто ведёт краткосрочные проекты
                         </div>
                         <div class="card__box">
-                            <div class="card__denomination">
-                                Общая стоимость
-                            </div>
-                            <div class="card__price">
-                                1 990 ₽
-                            </div>
-                        </div>
-                        <div class="card__box line">
-                            <div class="card__denomination">
-                                Ваша выгода
-                            </div>
-                            <div class="card__price">
-                                0 ₽
-                            </div>
+                                <div class="card__denomination">
+                                    Общая стоимость
+                                </div>
+                                <div class="card__price">
+                                    1 990 ₽
+                                </div>
                         </div>
                         <div class="card__box">
-                            <div class="card__denomination">
-                                Стоимость месяца
-                            </div>
-                            <div class="card__price">
-                                1 990 ₽/мес
-                            </div>
+                                <div class="card__denomination">
+                                    Ваша выгода
+                                </div>
+                                <div class="card__price">
+                                    0 ₽
+                                </div>
+                        </div>
+                        <div class="card__box">
+                                <div class="card__denomination">
+                                    Стоимость месяца
+                                </div>
+                                <div class="card__price">
+                                    1 990 ₽/мес
+                                </div>
                         </div>
                         <button class="button button_blue">
                             <a href="#">Бесплатно 14 дней</a>
@@ -334,7 +331,7 @@
                             <div class="card__denomination">Общая стоимость</div>
                             <div class="card__price">8 940 ₽</div>
                         </div>
-                        <div class="card__box line gold">
+                        <div class="card__box gold">
                             <div class="card__denomination">Ваша выгода</div>
                             <div class="card__price_gold">3 000 ₽</div>
                         </div>
@@ -360,7 +357,7 @@
                             <div class="card__denomination">Общая стоимость</div>
                             <div class="card__price">11 880 ₽</div>
                         </div>
-                        <div class="card__box line gold">
+                        <div class="card__box gold">
                             <div class="card__denomination">Ваша выгода</div>
                             <div class="card__price_gold">12 000 ₽</div>
                         </div>
@@ -405,10 +402,12 @@
                             <span>Продавец Wildberries</span>
                         </div>
                     </div>
-                    <img class="feedback__img" 
-                        src="./images/Feedback.svg" 
-                        alt="Фото клиента"
-                    />
+                    <div class="feedback__img">
+                        <img 
+                            src="./images/Feedback.svg" 
+                            alt="Фото клиента"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -419,7 +418,7 @@
             <div class="footer__wrapper">
                 <div class="footer__top">
                         <div class="footer__description"> 
-                            <a class="textLogo" href="#">
+                            <a class="textLogo footer__logo" href="#">
                                 FINIO
                             </a>
                             <div>
@@ -468,6 +467,10 @@
             </div>
         </div>
     </footer>
+
+    <!-- <img class="pixel-perfect-image" src="./images/Лендинг.png" alt=""/> -->
+
+    <!-- <img class="pixel-perfect-image" src="./images/Лендинг_мобилка.png" alt=""/> -->
 
 </body>
 

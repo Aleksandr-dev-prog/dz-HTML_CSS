@@ -10,14 +10,14 @@
 .textLogo {
     font-size: var(--size-36);
     font-weight: 900;
-    line-height: 120%;
+    line-height: 50.4px;
     color: var(--color-primary);
 }
 
 /* Button */
 
 .button {
-    padding: 12px 32px;
+    padding: 13px 32px;
     background: var(--color-primary);
     border: none;
     font-family: Inter;
@@ -67,6 +67,7 @@
 
     .textLogo {
         font-size: var(--size-24);
+        line-height: 33.6px;
     }
 
     .button {

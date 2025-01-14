@@ -7,7 +7,6 @@
     --border-17: 17px; */
 
     --layout-width: 1440px;
-    --layout-width-adaptive: 1160px;
 
     --color-primary:#FFFFFF;
     --color-secondary: #357EFE;
@@ -46,3 +45,11 @@ a {
     color: var(--color-primary);
 }
 
+.pixel-perfect-image {
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+    z-index: 1;
+}
